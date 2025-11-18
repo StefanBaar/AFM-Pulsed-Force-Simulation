@@ -122,11 +122,11 @@ Dependencies:
 
 ### **Perpendicular-distance contact point**
 
-[
+$$
 \text{dist}_i =
 \frac{(x_1 - x_0)(y_i - y_0) - (y_1 - y_0)(x_i - x_0)}
 {\sqrt{(x_1 - x_0)^2 + (y_1 - y_0)^2}}
-]
+$$
 
 ### **Savitzky–Golay smoothing**
 
@@ -137,9 +137,9 @@ y(t) = a_0 + a_1 t + a_2 t^2 + \dots
 ]
 
 Smoothed point at center:
-[
+$$
 \hat{y}_i = a_0
-]
+$$
 
 ---
 
